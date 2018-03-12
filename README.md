@@ -4,5 +4,7 @@ Familiarizing myself with Helm by adapting Edward Viaene's Advanced Kubernetes y
 
 Work in Progress.
 
-For a secure production-grade helm chart, please use vendor-supported charts such as github.com/kubernetes/charts/tree/master/incubator/elasticsearch for elasticsearch. 
+For a secure production-grade helm chart, please use vendor-supported charts such as 
+github.com/kubernetes/charts/tree/master/incubator/elasticsearch 
+for elasticsearch. 
 
