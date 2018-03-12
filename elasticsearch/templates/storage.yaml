@@ -1,0 +1,8 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1beta1
+metadata:
+  name: {{ .Values.storage.name }}
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: {{ .Values.storage.storageType }}
+  zone: {{ .Values.storage.availabilityZone }}

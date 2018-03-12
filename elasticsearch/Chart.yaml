@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A chart for EFK centralized logging on Kubernetes
+name: elasticsearch-logging
+version: 0.0.1
