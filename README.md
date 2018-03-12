@@ -1,6 +1,6 @@
 # Helm, Elasticsearch, Fluentd, Kibana, persistent, volumes on AWS EBS, RBAC Authorization
 
-Familiarizing myself with Helm by adapting Advanced Kubernetes Course' yaml-based files to Helm. 
+Familiarizing myself with Helm by adapting Edward Viaene's Advanced Kubernetes yaml-based files to Helm. 
 
 Work in Progress.
 
