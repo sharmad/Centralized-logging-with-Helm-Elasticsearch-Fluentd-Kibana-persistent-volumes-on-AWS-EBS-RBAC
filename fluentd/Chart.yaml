@@ -1,0 +1,4 @@
+apiVersion: extensions/v1beta1
+description: A chart for Fluentd on Kubernetes
+name: fluentd
+version: 0.0.1

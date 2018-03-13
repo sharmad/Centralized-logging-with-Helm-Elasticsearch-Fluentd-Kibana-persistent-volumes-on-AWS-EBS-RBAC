@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: docker.elastic.co/kibana/kibana
+  tag: 5.5.1
+  pullPolicy: IfNotPresent
+
+ports:
+- containerPort: 5601
+  name: ui
+  protocol: TCP
+
+metadata:
+  name: kibana-logging
+  labels:
+    k8s-app: kibana-logging
+    kubernetes.io/cluster-service: "true"
+    addonmanager.kubernetes.io/mode: Reconcile
+
+resources:
+  limits:
+    cpu: 1000m
+  requests:
+    cpu: 100m
